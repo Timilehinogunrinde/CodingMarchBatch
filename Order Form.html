@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+
+    <style>
+        h2 {
+            font-size: 30px;
+        }
+
+        .label1 {
+            margin-left: 310px;
+        }
+        .email {
+            margin-left: 100px;
+        }
+        .input1 {
+            margin-left: 50px;
+            background-color: lightgrey;
+        }
+        label {
+            font-size: 20px;
+    
+        }
+
+        #input1 {
+            width: 300px;
+            height: 45px;
+            border-radius: 3px;
+        }
+        .input2 {
+            margin-left: 50px;
+        }
+        .label2 {
+            margin-right: 190px;
+
+        }
+        .input3 {
+            height: 45px;
+            width: 215px;
+        }
+        select {
+            width: 200px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .comments {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-left: 290px;
+            background-color: blue;
+            color: white;
+            border: none;
+            font-size: 26px;
+            height: 50px;
+            border-radius: 3px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <!-- Heading -->
+        <h2>Your Order</h2>
+
+        <!-- Order Heading -->
+
+        <b><Label>Name</Label></b>
+        <b><Label class="label1">Email Address</Label></b>
+        <br>
+        <input type="text" placeholder="Your Full Name" id="input1"> 
+        <input class="input1" type="email" placeholder="chuck@roundhouse.com" id="input1">
+        <br> <br> <br>
+
+        <b><label>Address</label></b>
+        <br>
+        <input type="text" placeholder="9 Augusta Street" id="input1">
+        <input id="input1" type="text" placeholder="Suite 122" class="input2">
+        <br> <br> <br>
+        <!-- Classes of Order -->
+        
+        <B><Label class="label2">City</Label></b>
+        <b><Label class="label2">State</Label></b>
+        <b><label>ZIP</label></b> 
+        <br>
+        <input type="text" placeholder="New Jersey" class="input3">
+        <select class="input3">
+            <option>New York</option>
+            <option>Carlifonia</option>
+            <option></option>
+        </select>
+        <input type="number" placeholder="726221" class="input3">
+        
+        <!-- Colour Types for Order Samples-->
+        <br> <br>
+            <b><p>What colour samples should we send to you?</p></b>
+            
+            <input type="checkbox">
+            <label>White</label>
+            <input type="checkbox">
+            <label>Magenta</label>
+            <input type="checkbox">
+            <label>Coral</label>
+            <input type="checkbox">
+            <label>Burgundy</label>
+            <input type="checkbox">
+            <label>Charcoal</label>
+
+            <!-- Volume Number of Teams -->
+
+            <br> <br>
+            <b><p>How large is your team?</p></b>
+
+
+        <input type="radio">
+        <label>1-5 people</label>
+
+        <input type="radio">
+        <label>6-10 people</label>
+
+        <input type="radio">
+        <label> 10+ people</label>
+
+        <!-- Customer Comments -->
+        <br> <br>
+        <b><label class="Comments">Comments</label></b> <br>
+        <br>
+        <textarea name="" id="" cols="88" rows="15" placeholder="please also send me one of your catalogs so i can show your products to other people in my industry"></textarea>
+        <br>
+        <!-- Customer Sign Up for Special Offers -->
+        <br> <br>
+        <input type="checkbox">
+        <label>Sign up for special offers?</label>
+
+        <button>Place Order</button>
+
+    </form>
+    
+</body>
+</html>
